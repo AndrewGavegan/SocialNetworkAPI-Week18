@@ -11,15 +11,24 @@ Using express, mongoDB and mongoose.
 * [Questions](Questions)
 ---
 ## Description
-This application is  
+This application is a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. It uses Express.js for routing, a MongoDB database, and the Mongoose ODM. 
 
 ---
 ## Installation
-
+To install the application yourself, fork the project, run `npm i` then run `npm start` in the command line. 
 
 ---
 ## Usage 
-To use the application yourself after forking and installing, run `npm start` in the command line.  
+To demonstrate how to use the full scope of this applications capabilities, I have recorded a video going through each group of routes using Insomnia.
+
+### User Routes
+https://user-images.githubusercontent.com/91113260/176626880-6931283a-2d55-4303-bae0-7be4034c9ce8.mp4
+
+### Thought Routes
+https://user-images.githubusercontent.com/91113260/176626974-a707d53d-0f53-4e8f-a4f9-987bf95ee9b8.mp4
+
+### Friends and Reactions Routes
+https://user-images.githubusercontent.com/91113260/176627633-422f31fb-b5a4-40b6-aefe-cbc6f1368e69.mp4
 
 ---
 ## Credits 
