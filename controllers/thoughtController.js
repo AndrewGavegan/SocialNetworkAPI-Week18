@@ -30,9 +30,9 @@ module.exports = {
   // updating a thought //
   async updateThought(req, res) {
     // field in the body of username will make sure it only looks to update thoughts from that particular user as well as the thought ID
-    const user = await User.findOne({ _id: req.params.thoughtId });
-    if (!user) {
-      return res.status(404).json({ message: "User doesn't exist" });
+    const thought = await Thought.findOne({ _id: req.params.thoughtId });
+    if (!thought) {
+      return res.status(404).json({ message: "Thought doesn't exist" });
     }
     // finding the thought of the specifc user based on its id then updating, setting to the new body //
     Thought.findOneAndUpdate(
